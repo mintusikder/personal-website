@@ -33,6 +33,9 @@
   justify-content: center;
   gap: 64px;
 }
+.rob {
+  color: rgb(255, 131, 103);
+}
 #about-container {
   display: flex;
   align-items: center;
@@ -43,9 +46,8 @@
 }
 .title {
   font-family: Bebas Neue;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 80px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -80,14 +82,69 @@
     rgb(244, 96, 96) 95.833%
   );
 }
+/* LATEST WORKING PROJECT */
+#project-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.project-title {
+  font-family: Bebas Neue;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.box-1 {
+  width: 370px;
+  height: 374px;
+  border-radius: 19.74px;
+  box-shadow: 0px 6.58px 19.74px 0px rgba(0, 0, 0, 0.07);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images {
+  width: 343.54px;
+  height: 213.23px;
+}
+.box-title{
+  color: rgb(54, 57, 88);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 14px 0;
+}
+.box-subtitle{
+  color: rgb(108, 108, 108);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
 @media screen and (max-width: 576px) {
   #nav {
     margin-right: 0px;
   }
-  #hello-container{
+  #hello-container {
     flex-direction: column-reverse;
   }
-  #about-container{
+  #about-container {
     flex-direction: column-reverse;
+  }
+  #project-container{
+    flex-direction: column;
   }
 }
