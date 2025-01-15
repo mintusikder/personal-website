@@ -33,7 +33,15 @@
   justify-content: center;
   gap: 64px;
 }
-#hello-container .title {
+#about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-direction: row-reverse;
+  margin-bottom: 94px;
+}
+.title {
   font-family: Bebas Neue;
   font-size: 80px;
   font-weight: 700;
@@ -41,7 +49,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
-#hello-container .subtitle {
+.subtitle {
   color: rgb(62, 62, 62);
   font-family: Roboto;
   font-size: 16px;
@@ -51,7 +59,7 @@
   text-align: left;
   margin: 14px 0;
 }
-#hello-container .img {
+.img {
   width: 532.07px;
   height: 541.17px;
 }
@@ -77,6 +85,9 @@
     margin-right: 0px;
   }
   #hello-container{
+    flex-direction: column-reverse;
+  }
+  #about-container{
     flex-direction: column-reverse;
   }
 }
