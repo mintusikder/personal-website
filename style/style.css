@@ -147,16 +147,14 @@
     rgb(66, 37, 182) 99.867%
   );
   margin-bottom: 94px;
-}
-.work-blog {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 .work-title {
   color: rgb(255, 255, 255);
   font-family: Bebas Neue;
-  font-size: 46px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 64px;
   letter-spacing: 0%;
@@ -187,6 +185,10 @@
   }
   #hello-container {
     flex-direction: column-reverse;
+  }
+  .img {
+    width: 432.07px;
+    height: 441.17px;
   }
   #about-container {
     flex-direction: column-reverse;
